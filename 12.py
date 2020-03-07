@@ -17,6 +17,6 @@ while 500 > div_number: # the script will stop at 500
     for exp in prime_factor_dict.values():
         if not exp == 0:
             div_number = div_number * (exp + 1)
-    print 'Number of current divisor: ' + str(div_number) + '\n' + 'Triangle number: ' + str(sum) + '\nSum order: ' + str(i) + '\n'
+    print ('Number of current divisor: ' + str(div_number) + '\n' + 'Triangle number: ' + str(sum) + '\nSum order: ' + str(i) + '\n')
     sum = 0
     i += 1

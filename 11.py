@@ -40,4 +40,4 @@ for index_1 in range(16):
         product_h = 1
         product_d1 = 1
         product_d2 = 1
-print higher
+print (higher)

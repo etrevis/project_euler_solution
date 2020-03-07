@@ -8,4 +8,4 @@ for i in range(n):
 for a in range(1,n):
 	for b in range(1,n):
 		Matrix[a][b] = Matrix[a-1][b]+Matrix[a][b-1]
-print Matrix[n-1][n-1]
+print (Matrix[n-1][n-1])
